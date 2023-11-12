@@ -1,0 +1,25 @@
+* {
+  margin: unset;
+}
+
+#d3-tree {
+  width: 100%;
+  height: 25rem;
+}
+
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+}
+
+.node text {
+  font: 10px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: rgb(55, 68, 105);
+  stroke-width: 1px;
+}
